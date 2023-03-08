@@ -3,11 +3,15 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { AddNumber } from './components/AddNumber';
+import { AddPre } from './components/AddPre';
+import { ComponentApp } from './ComponentApp';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />
+    <ComponentApp></ComponentApp>
   </React.StrictMode>
 );
 
