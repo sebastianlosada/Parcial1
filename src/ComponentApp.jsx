@@ -30,7 +30,7 @@ export const ComponentApp = () => {
             setNumbers('');
             setPrecios('');
         }
-        //setNumbers(list => [...list, numbers])df
+        //setNumbers(list => [...list, numbers])dfdgdffgdgd
     }
 
     return (
